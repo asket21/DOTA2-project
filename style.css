@@ -10,14 +10,27 @@ img {
 }
 
 
+.header_container {
+    display: flex;
+    justify-content: center;
+    background-image: url(https://sneg.top/uploads/posts/2023-03/1678216890_sneg-top-p-zastavka-pervoi-doti-vkontakte-2.png);
+    gap :25px;
+    padding: 20px;
+    background-size: contain;
+    max-width: 1024px;
+    width: 100%;
+}
+
+
+
+
 .header {
     display: flex;
     justify-content: center;
-    background-color: rgb(170, 152, 125);
-    border-bottom: solid 1px rgb(32, 29, 29);
+    /* border-bottom: solid 1px rgb(32, 29, 29); */
     width: 100%;
-    gap :25px;
-    padding: 20px;
+  
+    
     
 }
 
@@ -26,8 +39,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url(https://w.forfun.com/fetch/5f/5f1b8e2f83515b74df9bfb741005c06d.jpeg
-    );
+    background-image: url(https://cdn.suwalls.com/wallpapers/games/dota-2-31688-1920x1080.jpg);
     background-size: cover;
     background-position: top;
     margin: 0;
@@ -83,5 +95,10 @@ body {
     background-position: bottom;
     max-width: 250px;
     width: 100%;
+    
+}
+
+
+@media screen display {
     
 }
