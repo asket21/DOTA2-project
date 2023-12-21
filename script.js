@@ -1,7 +1,7 @@
 
 
 
-let heroes = [];
+let heroes = [["Axe", "Tank"], ["Crystal Maiden", "Support"],];
 
 console.log(heroes.length);
 let heroesContainer = document.getElementById("heroesContainer");
